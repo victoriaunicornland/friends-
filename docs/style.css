@@ -1,0 +1,87 @@
+/*body{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+.odd{
+    color: red;
+}
+.even{
+    color: blue;
+}
+body{
+    background-color: hsl(0, 0%, 15%);
+}
+#p1{
+    color: tomato;
+}
+#p2{
+    color: rgb(102, 222, 255)
+}
+#p3{
+    color: #59ff5f
+}
+#p4{
+    color: hsl(289, 95%, 64%)
+}*/
+/*@font-face{
+    src:url(Fints/Roboto-VariableFont_wdth\,wght.ttf)
+    font-family: Roboto
+}
+@font-face{
+    src:url(Fints/OpenSans-VariableFont_wdth\,wght.ttf)
+    font-family: "Open Sans"
+}
+h1{
+    font-family: Roboto, verdana, arial;
+}
+p{
+    font-family: "Open Sans", "lucida console", "courier new";
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}*/
+h1.butter {
+    border: 3px solid black;
+    border-radius: 5px;
+
+}
+h1.botter {
+    border-style: dashed;
+}
+h1.bitter {
+    border-style: dotted;
+}
+h1.batter {
+    border-style: double;
+}
+h1.better {
+    border-style: groove;
+}
+h1.bytter {
+    border-style: ridge;
+}
+h1.bootter {
+    border-style: inset;
+}
+h1.baatter {
+    border-style: outset;
+}
+p.faster {
+    border-bottom: 3px solid red;
+    border-top: 3px outset yellow;
+    border-left: 3px dotted orange;
+    border-right: 3px dashed green;
+    border-radius: 10px
+
+}
+h1.broski {
+    text-shadow: 3px 3px 6px red, -3px -3px 6px blue; 
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(249, 222, 222);
+    box-shadow: 3px 3px 5px pink;
+}

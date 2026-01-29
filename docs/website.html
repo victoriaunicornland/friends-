@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Kablammo&family=Ole&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Puddles&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Kablammo&family=Ole&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Puddles&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kablammo&family=Ole&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kablammo&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<title>Friends&Smiles</title>
+    <link rel="icon" type="image/jpg" href="images/favicon.jpg">
+    <link rel="stylesheet" href="css.css">
+    <script src="js/script1.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  background: #ccc;
+  padding: 20px;
+  height: 300px;
+}
+
+p {
+    font-family: 'Henny Penny';
+    font-size: 0.9em;
+}
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  background-color: #ccc;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-size: 2em;
+  font-family: 'Ole';
+
+}
+
+/* Change the link and background color on hover */
+li a:hover {
+  background-color: #555555;
+  color: white;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+  background-image: url("images/images-2.jpg");
+
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.button_1 {
+  color: rgb(230, 67, 233);
+  text-shadow:  
+    2px 0 0 #8e347c,
+    -2px 0 0 #8e347c,
+    0 2px 0 #8e347c,
+    0 -2px 0 #8e347c,
+    1px 1px #8e347c,
+    -1px -1px 0 #8e347c,
+    1px -1px 0 #8e347c,
+    -1px 1px 0 #8e347c;
+}
+
+.button_2 {
+  color: rgb(241, 224, 70);
+  text-shadow:  
+    2px 0 0 #8e8134,
+    -2px 0 0 #8e8134,
+    0 2px 0 #8e8134,
+    0 -2px 0 #8e8134,
+    1px 1px #8e8134,
+    -1px -1px 0 #8e8134,
+    1px -1px 0 #8e8134,
+    -1px 1px 0 #8e8134;
+}
+
+.button_3 {
+  color: rgb(146, 251, 78);
+  text-shadow:  
+    2px 0 0 #578e34,
+    -2px 0 0 #578e34,
+    0 2px 0 #578e34,
+    0 -2px 0 #578e34,
+    1px 1px #578e34,
+    -1px -1px 0 #578e34,
+    1px -1px 0 #578e34,
+    -1px 1px 0 #578e34;
+}
+
+.button_4 {
+  color: rgb(78, 213, 251);
+  text-shadow:  
+    2px 0 0 #34768e,
+    -2px 0 0 #34768e,
+    0 2px 0 #34768e,
+    0 -2px 0 #34768e,
+    1px 1px #34768e,
+    -1px -1px 0 #34768e,
+    1px -1px 0 #34768e,
+    -1px 1px 0 #34768e;
+}
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+div {
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.moving_object {
+  width:100vw;
+  height:280px;
+  position: relative;
+  overflow: hidden;
+}
+.moving-image {
+  width: 900px;
+  height: 300px;
+  position:absolute;
+  left: -900px;
+  top:50%; 
+  transform: translateY(-50%);
+  animation: slideAcross 2.5s linear infinite;
+}
+
+@keyframes slideAcross  {
+  0% {
+    left: -900px;
+  }
+  100% {
+    left: calc(100vw);
+  }
+}
+
+.screen-border-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 5px solid pink;
+  box-shadow: 0 0 0 10000px rgba (0, 0, 0, 0.7);
+  pointer-events: none;
+}
+</style>
+</head>
+<body style = "background-image: url('images/decora.jpg')">
+<div class="screen-border-overlay"><header style="background-image: url('images/favicon.jpg')">
+  <big><h2 style="font-family: Kablammo;">Friends&Smiles</h2></big>
+</header>
+
+<section>
+  <nav style="background-image: url('images/images-3.jpg')">
+    <ul>
+      <li style="background-image: url('images/images-3.jpg'); opacity: 0.6;"><a class="button_1" href="pixelart.html">Pixel Art</a></li>
+      <li style="background-image: url('images/images-3.jpg');"><a class="button_2" href="aboutme.html">About Me</a></li>
+      <li style="background-image: url('images/images-3.jpg');"><a class="button_3" href="diary.html">Diary</a></li>
+      <li style="background-image: url('images/images-3.jpg');"><a class="button_4" href="website.html">Home</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1 style="font-size:2em; color:white; font-weight: bold; ">Friends and Smiles... quick about us!</h1>
+    <p style="color:white">Welcome to my website! This is my passion project and little creative space. Come on in and welcome to my home! [This is a WIP and will forever be a WIP]</p>
+    <p style="color:white">Friends and Smiles came from the song "Where is smiley?" by Serani Poji. I remember scrolling somewhere with muy bestfriend and coming across one of the sites like neocities where people had posted their own websites, and one random day in september I decided that this was my calling! I really like the decora style, with my room being decorated with rainbows wall paintings, beads, and small crafts I stuck on the wall so what better than to make it styled like that! Right now it may be a bit basic and not rainbow but trust it is coming! Thank you for visiting my website!</p>
+  </article>
+</section>
+
+<footer style="background-image: url('images/favicon.jpg')">
+  <p> </p>
+</footer>
+
+<div class="moving_object">
+  <img src="images/pixil-frame-0.png" alt="Moving Picture" class="moving-image">
+</div>
+</div>
+</body>
+</html>
